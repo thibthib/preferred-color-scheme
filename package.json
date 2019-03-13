@@ -1,6 +1,6 @@
 {
     "name": "preferred-color-scheme",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "main": "src/index.ts",
     "repository": "git@github.com:DataDog/preferred-color-scheme.git",
     "author": "Thibaut Dutartre <t.dutartre@gmail.com>",
