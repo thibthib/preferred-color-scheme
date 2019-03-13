@@ -1,9 +1,13 @@
 {
     "name": "preferred-color-scheme",
+    "description": "Small package exporting utility functions to read the user's preferred color scheme",
     "version": "1.0.0",
     "main": "src/index.ts",
     "repository": "git@github.com:DataDog/preferred-color-scheme.git",
-    "author": "Thibaut Dutartre <t.dutartre@gmail.com>",
+    "author": "Datadog <dev@datadog.com> (http://www.datadog.com)",
+    "contributors": [
+        "Thibaut Dutartre <t.dutartre@gmail.com> (https://github.com/thibthib)"
+    ],
     "license": "MIT",
     "scripts": {
         "build": "pack build",
