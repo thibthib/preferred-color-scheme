@@ -1,0 +1,29 @@
+{
+    "name": "preferred-color-scheme",
+    "version": "0.0.1",
+    "main": "src/index.ts",
+    "repository": "git@github.com:DataDog/preferred-color-scheme.git",
+    "author": "Thibaut Dutartre <t.dutartre@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "build": "pack build",
+        "to-npm": "pack publish"
+    },
+    "devDependencies": {
+        "@babel/core": "7.2.2",
+        "@pika/pack": "0.3.5",
+        "@pika/plugin-build-web": "0.3.14",
+        "@pika/plugin-ts-standard-pkg": "0.3.14",
+        "typescript": "3.3.1"
+    },
+    "@pika/pack": {
+        "pipeline": [
+            [
+                "@pika/plugin-ts-standard-pkg"
+            ],
+            [
+                "@pika/plugin-build-web"
+            ]
+        ]
+    }
+}
