@@ -10,8 +10,9 @@
     ],
     "license": "MIT",
     "scripts": {
-        "build": "pack build",
-        "to-npm": "pack publish"
+        "build": "pika build",
+        "to-npm": "pika publish",
+        "version": "yarn run build"
     },
     "devDependencies": {
         "@babel/core": "7.2.2",
